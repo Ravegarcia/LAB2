@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: white;
+        }
+
+        .main-header {
+            background-color: #000;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #facc15;
+        }
+
+        .page-section {
+            max-width: 600px;
+            margin: 60px auto;
+            background: #1c1c1c;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .page-title {
+            margin-bottom: 10px;
+        }
+
+        .page-subtitle {
+            color: #bbb;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #222;
+            color: white;
+            font-size: 14px;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #facc15;
+            outline: none;
+        }
+
+        .submit-btn {
+            background-color: #facc15;
+            color: black;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #eab308;
+        }
+
+        .site-footer {
+            text-align: center;
+            padding: 15px;
+            background-color: gray;
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header class="main-header">
+    <nav class="navbar"> 
+        <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="Contact.html">Contact</a>
+        <a href="lab2.html">Lab2</a>
+    </nav>
+</header>
+
+<section class="page-section">
+    <h1 class="page-title">Contact Me</h1>
+    <p class="page-subtitle">If you have any questions, feel free to message me!</p>
+
+    <div class="contact-info">
+        <p><i class="fa-solid fa-envelope"></i> ravegarcia37@example.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> Philippines</p>
+    </div>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</section>
+
+<footer class="site-footer">
+    <p>© 2026 CSS Basics Lab | Rave D Garcia</p>
+</footer>
+
+</body>
+</html>
